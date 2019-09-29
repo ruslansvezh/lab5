@@ -1,0 +1,18 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int A, B, x;
+	cout << "Введите длину отрезка А и В: " << endl;
+	cin >> A >> B;
+	if (A > B)
+	{
+		cout << "Свободного места на отрезке А: " << A % B ;
+	}
+	else
+		cout << "Неверные данные";
+	return 0;
+}
+
