@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int A,n=1,a,b,B;
+	cout << "Введите двузначное число: ";
+	cin >> A;
+	B = A;
+	while ((A = A/ 10) > 0) n++;
+	if (n == 2)
+	{
+		a = B / 10;
+		b = B % 10;
+		cout << b << a;
+	}
+	else
+		cout << "Неверные данные!";
+	
+}
+
