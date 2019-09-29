@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	double bait;
+	cout << "Даите объем файла в байтах: ";
+	cin >> bait;
+	cout << "Объем в килобайтах: " << round(bait / 1024);
+	return 0;
+}
